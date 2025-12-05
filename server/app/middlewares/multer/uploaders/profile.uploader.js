@@ -1,7 +1,7 @@
 /**
  * @file app/middlewares/multer/uploaders/profile.uploader.js
  * @description 프로필 이미지 업로더
- * 251127 v1.0.0 seon init
+ * 251127 v1.0.0 park init
  */
 
 import multer from 'multer';
@@ -61,7 +61,7 @@ export default function(req, res, next) {
     limits: {
       fileSize: parseInt(process.env.FILE_USER_PROFILE_SIZE)
     }
-  }).single('image');
+  }).single('profile');
 
   // 예외 처리
   upload(req, res, err => {
