@@ -1,7 +1,7 @@
 /**
  * @file app/controllers/auth.controller.js
  * @description 인증 관련 컨트롤러
- * 251119 v1.0.0 park init
+ * 251119 v1.0.0 seon init
  */
 
 import { REISSUE_ERROR, SUCCESS } from "../../configs/responseCode.config.js";
@@ -35,6 +35,29 @@ async function login(req, res, next) {
     return res.status(SUCCESS.status).send(createBaseResponse(SUCCESS, {accessToken, user}));
   } catch(error) {
     next(error);
+  }
+}
+
+/**
+ * 로그아웃 컨트롤러 처리
+ * @param {import("express").Request} req - Request 객체
+ * @param {import("express").Response} res - Response 객체
+ * @param {import("express").NextFunction} next - NextFunction 객체 
+ * @returns
+ */
+async function logout(req, res, next) {
+  try {
+    const id = req.user.id;
+
+    // 로그아웃 서비스 호출
+    await authService.logout(id);
+
+    // cookie에 refreshToken 만료
+    cookieUtil.clearCookieRefreshToken(res);
+
+    return res.status(SUCCESS.status).send(createBaseResponse(SUCCESS));
+  } catch (error) {
+    return next(error);
   }
 }
 
@@ -125,4 +148,5 @@ export default {
   reissue,
   social,
   socialCallback,
+  logout,
 };
