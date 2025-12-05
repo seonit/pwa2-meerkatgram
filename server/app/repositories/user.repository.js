@@ -1,7 +1,7 @@
 /**
  * @file app/repositories/user.repository.js
  * @description User Repository
- * 251120 v1.0.0 park init
+ * 251120 v1.0.0 seon init
  */
 
 import db from '../models/index.js';
@@ -49,9 +49,26 @@ async function create(t = null, data) {
   return await User.create(data, { transaction: t});
 }
 
+async function logout(t = null, id) {
+  // 특정 유저 리프래시토큰 null 갱신
+  // UPDATE users SET refresh_token = null, updated_at = NOW() WHERE id = ?
+  return await User.update(
+    {
+      refreshToken: null
+    },
+    {
+      where: {
+        id: id
+      },
+      transaction: t
+    }
+  )
+}
+
 export default {
   findByEmail,
   save,
   findByPk,
   create,
+  logout,
 }

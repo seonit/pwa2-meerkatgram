@@ -1,7 +1,7 @@
 /**
  * @file databases/seeders/dummy-users.seeder.js
  * @description users table dummy data create
- * 251118 v1.0.0 park init
+ * 251118 v1.0.0 seon init
  */
 import bcrypt from 'bcrypt';
 

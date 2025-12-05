@@ -1,7 +1,7 @@
 /**
  * @file app/middlewares/validations/validationHandler.js
  * @description 유효성 검사 핸들러
- * 251119 v1.0.0 park init
+ * 251119 v1.0.0 seon init
  */
 
 import { validationResult } from "express-validator";

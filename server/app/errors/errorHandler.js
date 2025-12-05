@@ -1,7 +1,7 @@
 /**
  * @file app/errors/errorHandler.js
  * @description 에러 핸들러
- * 251124 v1.0.0 park init
+ * 251124 v1.0.0 seon init
  */
 
 import { BaseError } from "sequelize";

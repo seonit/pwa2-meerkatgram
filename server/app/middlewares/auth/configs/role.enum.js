@@ -1,7 +1,7 @@
 /**
  * @file app/middlewares/auth/configs/role.enum.js
  * @description 유저 권한 상수 설정 파일
- * 251126 v1.0.0 park init
+ * 251126 v1.0.0 seon init
  */
 
 const ROLE = {

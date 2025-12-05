@@ -1,7 +1,7 @@
 /**
  * @file /app/middlewares/auth/auth.middleware.js
  * @description 인증 및 인가 처리 미들웨어
- * 251126 v1.0.0 park init
+ * 251126 v1.0.0 seon init
  */
 
 import { FORBIDDEN_ERROR } from "../../../configs/responseCode.config.js";

@@ -1,7 +1,7 @@
 /**
  * @file app/controllers/files.controller.js
  * @description 파일 업로드 관련 컨트롤러
- * 251127 v1.0.0 park init
+ * 251127 v1.0.0 seon init
  */
 
 import { BAD_FILE_ERROR, SUCCESS } from "../../configs/responseCode.config.js";

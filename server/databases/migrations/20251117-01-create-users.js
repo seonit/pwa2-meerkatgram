@@ -1,7 +1,7 @@
 /**
  * @file databases/migrations/20251117-01-create-users.js
  * @description users migration file
- * 251117 v1.0.0 park init
+ * 251117 v1.0.0 seon init
  */
 
 import { DataTypes } from 'sequelize';

@@ -1,7 +1,7 @@
 /**
  * @file /app/utils/jwt/jwt.util.js
  * @description jwt 유틸리티
- * 251125 v1.0.0 park init
+ * 251125 v1.0.0 seon init
  */
 
 import jwt from 'jsonwebtoken';

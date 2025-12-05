@@ -1,7 +1,7 @@
 /**
  * @file databases/migrations/20251119-02-fk-likes-post_id.js
  * @description Add fk on likes.post_id
- * 251119 v1.0.0 park init
+ * 251119 v1.0.0 seon init
  */
 
 // 테이블명

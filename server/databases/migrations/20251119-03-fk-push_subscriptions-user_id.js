@@ -1,7 +1,7 @@
 /**
  * @file databases/migrations/20251119-03-fk-push_subscriptions-user_id.js
  * @description Add fk on push_subscriptions.user_id
- * 251119 v1.0.0 park init
+ * 251119 v1.0.0 seon init
  */
 
 // 테이블명

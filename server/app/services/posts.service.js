@@ -1,7 +1,7 @@
 /**
  * @file app/services/posts.service.js
  * @description posts Service
- * 251128 park init
+ * 251128 seon init
  */
 
 import myError from '../errors/customs/my.error.js';

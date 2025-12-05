@@ -1,7 +1,7 @@
 /**
  * @file app/models/index.js
  * @description Sequelize 인스턴스 생성 File
- * 251120 v1.0.0 park init
+ * 251120 v1.0.0 seon init
  */
 
 import '../../configs/env.config.js';

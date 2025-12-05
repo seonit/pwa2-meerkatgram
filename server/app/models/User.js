@@ -1,7 +1,7 @@
 /**
  * @file app/models/User.js
  * @description user model
- * 251120 v1.0.0 park init
+ * 251120 v1.0.0 seon init
  */
 
 import dayjs from 'dayjs';

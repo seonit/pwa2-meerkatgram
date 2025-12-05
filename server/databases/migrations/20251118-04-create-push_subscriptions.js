@@ -1,7 +1,7 @@
 /**
  * @file databases/migrations/20251118-01-create-push_subscriptions.js
  * @description push_subscriptions migration file
- * 251118 v1.0.0 park init
+ * 251118 v1.0.0 seon init
  */
 
 import { DataTypes } from 'sequelize';

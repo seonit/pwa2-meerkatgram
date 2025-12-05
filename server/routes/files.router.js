@@ -1,7 +1,7 @@
 /**
  * @file routes/files.router.js
  * @description 인증 관련 라우터
- * 251119 v1.0.0 park init
+ * 251119 v1.0.0 seon init
  */
 
 import express from 'express';

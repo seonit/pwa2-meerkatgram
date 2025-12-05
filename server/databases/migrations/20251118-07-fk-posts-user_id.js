@@ -1,7 +1,7 @@
 /**
  * @file databases/migrations/20251118-07-fk-posts-user_id.js
  * @description Add fk on posts.user_id
- * 251118 v1.0.0 park init
+ * 251118 v1.0.0 seon init
  */
 
 /** @type {import('sequelize-cli').Migration} */

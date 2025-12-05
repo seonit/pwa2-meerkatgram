@@ -1,7 +1,7 @@
 /**
  * @file app/middlewares/validations/fields/user.field.js
  * @description 유저 정보 유효성 검사 필드
- * 251119 v1.0.0 park init
+ * 251119 v1.0.0 seon init
  */
 
 import PROVIDER from "../../auth/configs/provider.enum.js"

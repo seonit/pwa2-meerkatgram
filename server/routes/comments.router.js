@@ -1,7 +1,7 @@
 /**
  * @file routes/comments.router.js
  * @description comment 관련 라우터
- * 251203 v1.0.0 park init
+ * 251203 v1.0.0 seon init
  */
 
 import express from 'express';

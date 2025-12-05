@@ -1,7 +1,7 @@
 /**
  * @file routes/notFound.router.js
  * @description 404 관련 라우터
- * 251128 v1.0.0 park init
+ * 251128 v1.0.0 seon init
  */
 
 import express from 'express';

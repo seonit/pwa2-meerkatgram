@@ -1,7 +1,7 @@
 /**
  * @file app/services/auth.service.js
  * @description auth Service
- * 251120 park init
+ * 251120 seon init
  */
 
 import axios from 'axios';
@@ -57,6 +57,14 @@ async function login(body) {
       user
     }
   });
+}
+
+/**
+ * 로그아웃 처리
+ * @param {number} id - 유저 id 
+ */
+async function logout(id) {
+  return await userRepository.logout(null, id);
 }
 
 /**
@@ -158,6 +166,7 @@ async function socialKakao(code) {
 
 export default {
   login,
+  logout,
   reissue,
   socialKakao,
 }

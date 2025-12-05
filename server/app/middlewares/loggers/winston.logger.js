@@ -1,7 +1,7 @@
 /**
  * @file app/middlewares/loggers/winston.logger.js
  * @description winston Logger
- * 251124 v1.0.0 park init
+ * 251124 v1.0.0 seon init
  */
 
 import winston from 'winston';

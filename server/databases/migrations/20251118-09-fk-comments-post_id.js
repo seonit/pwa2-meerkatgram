@@ -1,7 +1,7 @@
 /**
  * @file databases/migrations/20251118-08-fk-comments-post_id.js
  * @description Add fk on comments.post_id
- * 251118 v1.0.0 park init
+ * 251118 v1.0.0 seon init
  */
 
 // 테이블명

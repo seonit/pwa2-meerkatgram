@@ -1,7 +1,7 @@
 /**
  * @file databases/migrations/20251118-06-alter-notifications-is_read.js
  * @description notifications-is_read change
- * 251118 v1.0.0 park init
+ * 251118 v1.0.0 seon init
  */
 
 import { DataTypes, Sequelize } from 'sequelize';
